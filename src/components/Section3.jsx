@@ -11,7 +11,7 @@ function Section2() {
       <Row className="reverse-lg">
         <Col lg="6">
           <img
-            src="https://storage.googleapis.com/peronal-stuff-61ac6.appspot.com/pic2.webp?GoogleAccessId=service-287122893616@gcp-sa-firebasestorage.iam.gserviceaccount.com&Expires=1689058559&Signature=X2ZMPgmfZML2SRMpk16kcjDzif2k8N%2B%2BSXRW9Hr1xzkbHNFOWs0ZJbVhSpjVOUx%2B34bPn750G48Q22C04Jgo4GemggakDwsqTj0foXqEM3Cak5UCpgcRklrJfFbOHqhGHMCzSloll5PNxgaG85DgG%2B6YC3JeY0Zba1H3uBijeRwv4FhVXTDVAEF6OI9PSLESmSPijKsHlgkyucJbt3SIQaFD4RVHn4cuoAze9XpwiVuC7MXCNECa5aG4TFZWla0D4e12CIiWW%2B%2BrnTeQ/iUajBLxIoi1Edgt0H0N1RBTsclcEuH3Vtjxe3Y3dIVhmH6PfqQQjU6DEJ7EPpQLVwvV2w%3D%3D"
+            src="https://firebasestorage.googleapis.com/v0/b/peronal-stuff-61ac6.appspot.com/o/pic2.webp?alt=media&token=96f62b55-0d67-4447-ba41-6d1bee485c77"
             alt="hero"
             class="object-cover relative object-center rounded-3xl transition-transform duration-300 ease-in-out hover:-translate-y-2 max-w-full cursor-pointer w-full"
           />
