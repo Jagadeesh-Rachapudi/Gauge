@@ -1,0 +1,72 @@
+.section1 {
+  background-color: #1c1c3a;
+  min-height: 95.2vh;
+  max-height: fit-content;
+  border-radius: 0 0 20px 20px;
+  padding-top: 8rem;
+  .pic1 {
+    background-color: #1c1c3a;
+  }
+
+  .hedder {
+    color: #fff;
+    font-size: 3.75em;
+    font-weight: 600 !important;
+    line-height: 1.25;
+    text-transform: capitalize;
+    max-width: 40rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    .letters {
+      -webkit-text-fill-color: transparent;
+      background: linear-gradient(90deg, #d73365 0, #fea063);
+      -webkit-background-clip: text !important;
+      background-clip: text !important;
+      display: inline-block;
+      position: relative;
+    }
+    @media (max-width: 600px) {
+      font-size: 3rem;
+    }
+    @media (max-width: 500px) {
+      font-size: 2.5rem;
+    }
+  }
+  .my-custom-class {
+    border-radius: 3rem;
+    cursor: pointer;
+    object-fit: cover;
+    object-position: center;
+    transition-duration: 0.3s;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    transition-timing-function: ease-in-out;
+  }
+  .customer-para-two {
+    color: #b5b5b5;
+    font-size: 1rem;
+    font-weight: 500;
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .customer-para-one {
+    color: #6b6b6b;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+  }
+  .buttonBody {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+  }
+  @media (max-width: 992px) {
+    padding-bottom: 5rem;
+  }
+}

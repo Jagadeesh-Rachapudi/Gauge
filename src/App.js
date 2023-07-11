@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.scss";
+import Section1 from "./components/Section1";
+import Section2 from "./components/Section2";
+import Section3 from "./components/Section3";
+import { BsWhatsapp } from "react-icons/bs";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+    <div className="body">
+      <Section1 />
+      <Section2 />
+      <Section3 />
+      <div className="whatsapp-button">
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://api.whatsapp.com/send?phone=1234567890" // Replace with your desired WhatsApp URL
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          <BsWhatsapp className="icon" />
         </a>
-      </header>
+      </div>
     </div>
   );
 }
